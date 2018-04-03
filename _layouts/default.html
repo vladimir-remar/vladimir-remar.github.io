@@ -3,7 +3,7 @@
 		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css">
 		</head>
 		<body>
 			<nav>
@@ -21,8 +21,24 @@
 			</div><!-- /.container -->
 			<footer>
 	    		<ul>
-	        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+	        		<li id="mail">
+                <a href="mailto:{{ site.author.email }}" 
+                  <i class="icon icon-mail"></i>
+                  <span class="label">Email</span>
+                </a> 
+              </li>
+	        		<li id="github">
+                <a href="https://www.github.com/{{ site.author.github_username }}">
+                  <i class="icon icon-social-github"></i>
+                  <span class="label">GitHub</span>
+                </a>
+              </li>
+	        		<li id="twitter">
+                <a href="http://twitter.com/{{ site.author.twitter_username }}">
+                  <i class="icon icon-social-twitter"></i>
+                  <span class="label">Twitter</span>
+                </a>
+              </li>
 				</ul>
 			</footer>
 		</body>
