@@ -1,3 +1,4 @@
+title: vladimir Remar
 name: Vladimir Remar, Sysadmin, Musician
 markdown: kramdown
 url: https://vladimir-remar.github.io/
@@ -10,3 +11,6 @@ author:
   facebook_username: vladimir.remar
   github_username:  vladimir-remar
   linkedin_username:  vladimir.remar
+
+
+permalink: /blog/:year/:month/:day/:title
