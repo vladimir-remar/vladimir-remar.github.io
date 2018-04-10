@@ -56,6 +56,29 @@ ul.posts li {
   border: 3px solid #fff;
   border-radius:100%;
 }
+
+.post-meta__tags {
+  font-size: 12px;
+  padding: 0 5px;
+  margin-left: .4em;
+}
+
+        
+.tags {
+	font-size: .8em;
+	color: #c7c7c7; }
+	.date a,
+	.time a,
+	.author a,
+	.tags a {
+		color: #666666; }
+		.date a:hover,
+		.time a:hover,
+		.author a:hover,
+		.tags a:hover {
+			color: #b9301c; }
+
+/* FONT CONFIG*/
 @font-face {
 	font-family: "foundation-icons";
 	src: url("../fonts/foundation-icons/foundation-icons.eot");
