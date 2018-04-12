@@ -2,7 +2,7 @@ title: A little bit of Vlad's
 name: Vladimir Remar, Sysadmin, Musician
 markdown: kramdown
 url: https://vladimir-remar.github.io/
-baseurl: '/'
+baseurl: '/vladimir-remar.github.io'
 
 author:
   name: 'Vladimir Remar'
