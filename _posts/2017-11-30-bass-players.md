@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The most famous bass players"
-image: /vladimir-remar.github.io/images/bass_players.jpg
+image: /images/bass_players.jpg
 date: 2017-11-30
 tags: [Bass]
 ---
