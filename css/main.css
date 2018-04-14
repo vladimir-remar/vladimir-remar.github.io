@@ -2,7 +2,13 @@ body {
     margin: 60px auto;
     width: 70%;
     background: url(/vladimir-remar.github.io/images/cover.jpg);
-    background-size: 100%;
+    background-size: 100% 170%;
+}
+.panel-cover {
+  color: white;
+}
+.inside_tags{
+  font-size: 1.5em;
 }
 .nav ul, .footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -13,6 +19,7 @@ body {
 .header {
     display: inline;
     list-style: none;
+    font-size: 2em;
 }
 .nav ul li, .footer ul li {
     display: inline;
@@ -38,15 +45,19 @@ p {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-
+ul {
+  font-size: 1.6em;
+   color: #999;
+}
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: .8em;
+    font-size: 1em;
+    
 }
 
 ul.posts li {
     list-style: none;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 .user-image {
@@ -59,14 +70,16 @@ ul.posts li {
 }
 
 .post-meta__tags {
-  font-size: 12px;
+  font-size: 25px;
   padding: 0 5px;
   margin-left: .4em;
 }
 
-        
+.post-meta__date {
+  font-size:  25px;
+}
 .tags {
-	font-size: .8em;
+	font-size: 1em;
 	color: #c7c7c7; }
 	.date a,
 	.time a,
