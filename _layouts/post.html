@@ -11,7 +11,10 @@ title: Posts
 <div class="post">
   {{ content }}
 </div>
-
+<div class="notecomments">
+  {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+{% if page.comments != false %}{% include disqus.html %}{% endif %}
+</div>
 <div class="post-meta">
   <time datetime="{{ page.date | date: "%Y-%m-%d %H:%M" }}" class="post-meta__date">{{ page.date | date: "%-d %b %Y" }}</time>
   {% if page.tags.size > 0 %}
