@@ -19,6 +19,8 @@ pagina web estatica, tanto su contenido como su propia estructuracion.
 - Blog: Un blog con diferentes entradas.
 - Tags: Tags utilizados.
 
+---
+
 ## Tratamiento de la pagina web
 
 - Para el tratamiento de la pagina web me base en un tema de Jekyll
@@ -28,6 +30,8 @@ pagina web estatica, tanto su contenido como su propia estructuracion.
 ayudo en la gestion de los mismos.
 - Implementacion de [DISQUS](/_includes/disqus.html)
 - El resto es emplear el propio lenguaje HTML.
+
+---
 
 ## Uso de Jekyll
 
@@ -50,7 +54,7 @@ Instalacion y test local:
 Asi entonces podemos ver en funcionamiento Jekyll y la estructura de
 directorios que genera.
 
-## Jekyll en nuestra web
+### Jekyll en nuestra web
 
 Estructura de direcorios:
 
@@ -95,6 +99,7 @@ Estructura de direcorios:
     ├── _sass
     │   └── icon.scss
 
+---
 
 ## Features
 
