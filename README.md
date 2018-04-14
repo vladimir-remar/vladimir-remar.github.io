@@ -26,6 +26,7 @@ pagina web estatica, tanto su contenido como su propia estructuracion.
 - Gestion "visual" dispuse de mi propio [css](/css/main.css).
 - Tags emplee un pequeño [script](/js/main.js) en java-script el cual me 
 ayudo en la gestion de los mismos.
+- Implementacion de [DISQUS](/_includes/disqus.html)
 - El resto es emplear el propio lenguaje HTML.
 
 ## Uso de Jekyll
