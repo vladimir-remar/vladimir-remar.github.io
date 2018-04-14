@@ -2,7 +2,7 @@ title: A little bit of Vlad's
 name: Vladimir Remar, Sysadmin, Musician
 markdown: kramdown
 url: https://vladimir-remar.github.io/
-baseurl: '/vladimir-remar.github.io'
+baseurl: '/'
 disqus_shortname: vladimirremar
 
 author:
