@@ -16,6 +16,7 @@ pagina web estatica, tanto su contenido como su propia estructuracion.
 ## Pagina Web
 - Home: Con un mensaje de bienvenida.
 - About: Tema a tratar.
+- CV: cv
 - Blog: Un blog con diferentes entradas.
 - Tags: Tags utilizados.
 
@@ -57,7 +58,7 @@ directorios que genera.
 ### Jekyll en nuestra web
 
 Estructura de direcorios:
-
+    
     ├── about
     │   └── index.html
     ├── blog
@@ -65,6 +66,10 @@ Estructura de direcorios:
     ├── _config.yml
     ├── css
     │   └── main.css
+    ├── cv
+    │   └── index.html
+    ├── files
+    │   └── vladimir-cv.pdf
     ├── fonts
     │   └── foundation-icons
     │       ├── foundation-icons.eot
@@ -77,9 +82,11 @@ Estructura de direcorios:
     │   ├── bp_james.jpg
     │   ├── cover.jpg
     │   ├── cycling.jpg
+    │   ├── profile2.jpg
     │   ├── profile.jpg
     │   └── victor.jpg
     ├── _includes
+    │   ├── disqus.html
     │   └── footer.html
     ├── index.html
     ├── js
@@ -96,8 +103,7 @@ Estructura de direcorios:
     │   ├── 2016-05-13-cyling.md
     │   └── 2017-11-30-bass-players.md
     ├── README.md
-    ├── _sass
-    │   └── icon.scss
+
 
 ---
 
