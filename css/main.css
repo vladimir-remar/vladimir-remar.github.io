@@ -1,17 +1,17 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background: url(/vladimir-remar.github.io/images/cover.jpg);
+    background-color: white;
     background-size: 100% 170%;
 }
 .panel-cover {
-  color: white;
+  color: black;
 }
 .inside_tags{
   font-size: 1.5em;
 }
 h1 {
-  color:white;
+  color:black;
 }
 .nav ul, .footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -28,6 +28,9 @@ h1 {
     display: inline;
     margin-right: 20px;
 }
+.skills {
+  font-size: 1.1em;
+}
 a {
     text-decoration: none;
     color: #999;
@@ -42,7 +45,7 @@ h1 {
 p {
     font-size: 1.3em;
     line-height: 1.3em;
-    color: white;
+    color: black;
 }
 .footer {
     border-top: 1px solid #d5d5d5;
